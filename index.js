@@ -13,9 +13,6 @@ const client = new MongoClient(uri, {
   useUnifiedTopology: true,
   serverApi: ServerApiVersion.v1,
 });
-client.connect((err) => {
-  const collection = client.close();
-});
 
 async function run() {
   try {
@@ -24,6 +21,7 @@ async function run() {
     const collection = client.db("kanbanBoard").collection("task");
     app.post("/kanbanboard", async (req, res) => {
       const task = req.body;
+
       const result = await collection.insertOne(task);
       res.send(result);
     });
