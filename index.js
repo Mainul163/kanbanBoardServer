@@ -19,6 +19,11 @@ async function run() {
     await client.connect();
 
     const collection = client.db("kanbanBoard").collection("task");
+    app.get("/kanbanboard", async (req, res) => {
+      const cursor = collection.find();
+      const result = await cursor.toArray();
+      res.send(result);
+    });
     app.post("/kanbanboard", async (req, res) => {
       const task = req.body;
 
@@ -40,4 +45,5 @@ app.listen(port, () => {
 });
 
 // user:mainul
+// pass:0P05xp0SbdIKRWln
 // pass:0P05xp0SbdIKRWln
