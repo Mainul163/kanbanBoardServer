@@ -5,7 +5,7 @@ A simple kanban board built with React & Node Js
 
 ### [Live Link](https://karbon-board-task.web.app/)
 
-### [Frontend Repositories Link](https://github.com/Mainul163/karbon-board-task/blob/main/README.md)
+### [Frontend Repositories Link](https://github.com/Mainul163/karbon-board-task)
 
 ### Frontend
 
@@ -20,6 +20,10 @@ A simple kanban board built with React & Node Js
 ### Database 
 
 - MongoDB
+
+### Tools
+
+-VsCode
 
 ### Deploy
 
