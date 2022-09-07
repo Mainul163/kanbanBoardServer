@@ -19,6 +19,12 @@ A simple kanban board built with React & Node Js
 
 - MongoDB
 
+### Deploy
+
+Frontend : Firebase </br>
+Backend  : Heroku
+
+
 ## How to run Frontend ui
 
 - After clone the code from the github repositorie have to install npm i in terminal
@@ -27,5 +33,5 @@ A simple kanban board built with React & Node Js
 ## How to run Backhand 
 
 - After clone the code from the github repositorie have to install npm i in terminal
-- To run in the browser need to npm run dev
-- and port number 5000
+
+
