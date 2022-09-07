@@ -23,7 +23,7 @@ A simple kanban board built with React & Node Js
 
 ### Tools
 
--VsCode
+- VsCode
 
 ### Deploy
 
