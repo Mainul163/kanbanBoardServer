@@ -3,7 +3,7 @@ A simple kanban board built with React & Node Js
 - automatically saves application database to sate so users can refresh the page without losing data
 - drag and drop functionality for the cards
 
-### [Live Link](https://karbon-board-task.web.app/)
+### [Live Link](https://kanbanboard-9ff04.web.app/)
 
 ### [Frontend Repositories Link](https://github.com/Mainul163/karbon-board-task)
 
